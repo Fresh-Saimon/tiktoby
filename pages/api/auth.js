@@ -19,6 +19,7 @@ export default async function handler(req, res) {
 
     res.json({ data });
   } catch (error) {
+    console.log("error", error);
     res.json({ code, error: error.message });
   }
 }
