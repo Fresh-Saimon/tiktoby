@@ -8,7 +8,7 @@ export default async function handler(req, res) {
     client_id: process.env.CLIENT_ID,
     code,
     client_secret: process.env.CLIENT_SECRET,
-    redirect_uri: "https://tiktoby.web.app/",
+    redirect_uri: "https://tiktoby.vercel.app/",
   };
 
   try {
