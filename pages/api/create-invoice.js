@@ -30,7 +30,7 @@ export default async function createInvoices(req, res) {
       fname: "Debug",
       lname: "Client",
       notes: null,
-      invoice_number: randomNumberBetween10and100000 + next,
+      // invoice_number: randomNumberBetween10and100000 + next,
       organization: "",
       code: "",
       po_number: null,
