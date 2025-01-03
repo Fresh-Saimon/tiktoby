@@ -29,6 +29,9 @@ importers:
       react-dom:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
+      uuid-v8:
+        specifier: ^0.0.6
+        version: 0.0.6
 
 packages:
 
@@ -755,6 +758,10 @@ packages:
   utils-merge@1.0.1:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
+
+  uuid-v8@0.0.6:
+    resolution: {integrity: sha512-rDktzrXLU1aHODtYA9GfzpxdRCnB1MolWVk1fepcISvIemLrLTLyXPeKX+ttqonEMW7PQ1zGb+pRAMPLVrdkWA==}
+    hasBin: true
 
   vary@1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
@@ -1483,6 +1490,8 @@ snapshots:
   util-deprecate@1.0.2: {}
 
   utils-merge@1.0.1: {}
+
+  uuid-v8@0.0.6: {}
 
   vary@1.1.2: {}
 
